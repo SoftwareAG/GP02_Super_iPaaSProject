@@ -499,12 +499,12 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="lastModifiedBy">gp01user</value>
-    <value name="lastModifiedDate">1704783305715</value>
+    <value name="lastModifiedBy">demouser</value>
+    <value name="lastModifiedDate">1712913520230</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">d08a3943d4594f4d953a466bb26db874</value>
+      <value name="id">6949bcb78020440487733ab6566b1468</value>
       <value name="group">default</value>
-      <value name="name">GP01_AWS_US_East_2</value>
+      <value name="name">GP02_AWS_US_East_1</value>
       <value name="executionPlaneType">onprem</value>
     </record>
     <value name="displayName">getCustomerById</value>
