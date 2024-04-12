@@ -460,11 +460,11 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">demouser</value>
-    <value name="lastModifiedDate">1712913489704</value>
+    <value name="lastModifiedDate">1712913503695</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">6949bcb78020440487733ab6566b1468</value>
+      <value name="id">59e9921bf66445f8a28c803347d010fd</value>
       <value name="group">default</value>
-      <value name="name">GP02_AWS_US_East_1</value>
+      <value name="name">GP02_AWS_EU_Central_1</value>
       <value name="executionPlaneType">onprem</value>
     </record>
     <value name="displayName">generateQuotation</value>

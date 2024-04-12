@@ -7,3 +7,48 @@ packages:
   gitUrl: https://github.com/SoftwareAG/GP02_Super_iPaaSProject
   gitUsername: kalpshekhar-sag
   gitBranch: main
+services:
+- serviceName: project.gp02_super_ipaas.integrations:generateQuotation
+  packages:
+  - name: GP02_Super_iPaaSProject
+    version: "1.0"
+- serviceName: project.gp02_super_ipaas.integrations:getCustomerById
+  packages:
+  - name: GP02_Super_iPaaSProject
+    version: "1.0"
+- serviceName: pub.client:http
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: pub.io:bytesToStream
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: pub.json:jsonStreamToDocument
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: project.gp02_super_ipaas.integrations:getProductById
+  packages:
+  - name: GP02_Super_iPaaSProject
+    version: "1.0"
+- serviceName: pub.string:isNumber
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: pub.math:multiplyFloats
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: pub.math:subtractFloats
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: pub.date:currentNanoTime
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: pub.flow:getLastFailureCaught
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
