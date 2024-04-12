@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: GP02_Super_iPaaSProject
+  gitServerName: kalpshekhar-sag
+  gitUrl: https://github.com/SoftwareAG/GP02_Super_iPaaSProject
+  gitUsername: kalpshekhar-sag
+  gitBranch: main
